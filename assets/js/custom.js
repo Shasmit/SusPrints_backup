@@ -45,7 +45,6 @@ $(document).ready(function(){
 					}
 				});
 				
-				
 				$('.play').on('click',function(){
 					owl.trigger('play.owl.autoplay',[1000])
 				})
@@ -89,3 +88,11 @@ $(document).ready(function(){
 		});
 
 });
+
+
+const pushDown = document.querySelector('.lnr-magnifier');
+const goDown = document.querySelector('.welcome-hero-txt')
+
+pushDown.addEventListener('click', () => {
+	goDown.style.marginTop = "40px";
+})
