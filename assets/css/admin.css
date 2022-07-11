@@ -44,3 +44,6 @@
     padding: 20px 70px 0 70px;
 }
 
+.onSelect{
+    display: none;
+}

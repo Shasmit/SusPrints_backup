@@ -65,9 +65,10 @@
       </div>
       <div class="col-md-6">
         <label for="inputproductType" class="form-label">Choose Product Type</label>
-        <select id="inputproductType" class="form-select">
-          <option selected>Most Selling Collection</option>
-          <option>New Arrivals</option>
+        <select id="inputproductType" class="form-select" onchange="getInput(this)">
+          <option disabled selected>Select Product Type..</option>
+          <option value="Most Selling Collection">Most Selling Collection</option>
+          <option value="New Arrivals">New Arrivals</option>
         </select>
       </div>
       <div class="col-md-6">
@@ -75,7 +76,7 @@
         <input type="text" class="form-control" id="inputPrice" placeholder="Enter the price in Rs. format">
       </div>
       
-      <div class="col-md-6">
+      <div class="col-md-6 onSelect">
         <label for="inputDisPrice" class="form-label">Discount Price</label>
         <input type="text" class="form-control" id="inputDisPrice" placeholder="Enter in the same format as Price">
       </div>
@@ -93,15 +94,9 @@
     </form>
   </div>
 
-  
+
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/admin.js"></script>
 </body>
 </html>
-
-
-
-<!-- <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form> -->
