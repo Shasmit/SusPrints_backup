@@ -261,23 +261,19 @@ body{
     flex-direction: column;
     align-items: center;
 }
-
 .loginform h1{
     margin: 10px 0 15px 0;
     font-weight: 800;
 }
-
 .loginform p{
     text-align: center;
     font-weight: 600;
     margin-bottom: 20px;
     font-size: 16px;
 }
-
 .username-register-container{
     padding: 20px 0;
 }
-
 .username-register-container .u-name{
     padding: 10px 20px;
     width: 300px;
@@ -286,15 +282,12 @@ body{
     border: 1px solid gray;
     outline: none;  
 }
-
 .u-name::placeholder{
     color: lightcoral;
 }
-
 .password-register-container{
     padding: 0 0 20px 0;
 }
-
 .password-register-container .passcode{
     padding: 10px 20px;
     width: 300px;
@@ -304,7 +297,6 @@ body{
     border: 1px solid gray;
     outline: none; 
 }
-
 .passcode::placeholder{
     color: lightcoral;
 }

@@ -91,8 +91,26 @@ $(document).ready(function(){
 
 
 const pushDown = document.querySelector('.lnr-magnifier');
-const goDown = document.querySelector('.welcome-hero-txt')
+const goDown = document.querySelector('.welcome-hero-txt');
+const showUser = document.querySelector('.lnr-user');
+const hideUser = document.querySelector('.nav-user-ul');
+const hideUser1 = document.querySelector('.slide');
+
 
 pushDown.addEventListener('click', () => {
 	goDown.style.marginTop = "40px";
 })
+
+showUser.addEventListener('click', () => {
+	if(hideUser.style.display == "none"){
+		hideUser.style.display = "block";
+	}
+	else{
+		hideUser.style.display = "none";
+	}
+})
+
+hideUser1.addEventListener('click', () => {
+	hideUser.style.display = "none";
+})
+
